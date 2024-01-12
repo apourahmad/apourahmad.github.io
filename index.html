@@ -38,13 +38,18 @@
             color: #555;
             margin-bottom: 8px;
         }
-        .links {
+        .links-container {
             margin-top: 0px;
             text-align: center;
+            position: relative; /* Added relative positioning */
+        }
+        .links {
             border-bottom: 2px dashed #ddd;
             padding-bottom: 8px;
-            margin-left: 50px; /* Extended the dashed line to the left */
-            margin-right: 50px; /* Extended the dashed line to the right */
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%); /* Center the links horizontally */
+            width: 80%; /* Adjust the width as needed */
         }
         .links a {
             margin: 0 10px;
@@ -69,11 +74,13 @@
             <div class="name">Ali Pourahmad Ghalejough</div>
             <div class="title">Ph.D. in Architecture, Tabriz Art University</div>
         </div>
-        <div class="links">
-            <a href="https://www.researchgate.net/profile/Ali-Pourahmad-Ghalejough" target="_blank">ResearchGate</a>
-            <a href="https://linkedin.com/in/apourahmad" target="_blank">LinkedIn</a>
-            <a href="https://scholar.google.com/citations?user=QCQU9XcAAAAJ&hl=en" target="_blank">Google Scholar</a>
-            <a href="mailto:a.pourahmad@tabriziau.ac.ir">Email</a>
+        <div class="links-container">
+            <div class="links">
+                <a href="https://www.researchgate.net/profile/Ali-Pourahmad-Ghalejough" target="_blank">ResearchGate</a>
+                <a href="https://linkedin.com/in/apourahmad" target="_blank">LinkedIn</a>
+                <a href="https://scholar.google.com/citations?user=QCQU9XcAAAAJ&hl=en" target="_blank">Google Scholar</a>
+                <a href="mailto:a.pourahmad@tabriziau.ac.ir">Email</a>
+            </div>
         </div>
     </header>
 
