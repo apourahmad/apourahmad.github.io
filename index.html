@@ -17,12 +17,14 @@
             flex-direction: column;
             align-items: center;
             padding: 10px;
+            position: relative;
         }
         .profile-image {
             border-radius: 50%;
             max-width: 200px; /* Adjusted the size of the profile picture */
             max-height: 200px; /* Adjusted the size of the profile picture */
             margin-bottom: 10px; /* Reduced the space between the picture and "Ali Pourahmad Ghalejough" */
+            border: 2px dashed #555; /* Added a dashed circle around the picture */
         }
         .name {
             font-size: 2em;
@@ -33,10 +35,10 @@
         .title {
             font-size: 1em;
             color: #555;
-            margin-bottom: 8px; /* Reduced the space between "Ali Pourahmad Ghalejough" and "Ph.D. in Architecture, Tabriz Art University" */
+            margin-bottom: 0; /* Removed the margin between "Ph.D. in Architecture, Tabriz Art University" and the links */
         }
         .links {
-            margin-top: 0px; /* Removed the space between the links and the texts above */
+            margin-top: 5px; /* Adjusted the space between "Ph.D. in Architecture, Tabriz Art University" and the links */
             text-align: center;
         }
         .links a {
@@ -49,6 +51,9 @@
         p {
             line-height: 1.6;
             color: #555;
+        }
+        hr {
+            margin-top: 20px; /* Adjusted the space between the content and the line */
         }
     </style>
 </head>
@@ -66,6 +71,7 @@
             <a href="https://scholar.google.com/citations?user=QCQU9XcAAAAJ&hl=en" target="_blank">Google Scholar</a>
             <a href="mailto:a.pourahmad@tabriziau.ac.ir">Email</a>
         </div>
+        <hr> <!-- Added a line under the header -->
     </header>
 
     <section>
