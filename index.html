@@ -14,7 +14,7 @@
         }
         header {
             display: flex;
-            justify-content: space-between;
+            flex-direction: column;
             align-items: center;
             background-color: #f2f2f2;
             padding: 10px;
@@ -22,20 +22,22 @@
         .name {
             font-size: 2em;
             color: #333;
-            margin-right: 20px;
+            margin-bottom: 5px;
         }
         .title {
             font-size: 1em;
             color: #555;
-            margin-right: 20px;
+            margin-bottom: 15px;
         }
         .profile-image {
             border-radius: 50%;
-            max-width: 100px;
-            max-height: 100px;
+            max-width: 150px; /* Adjusted the size of the profile picture */
+            max-height: 150px; /* Adjusted the size of the profile picture */
+            margin-bottom: 20px; /* Increased the space between affiliation and social media links */
         }
         .links {
-            margin-top: 10px;
+            margin-top: 15px; /* Increased the space between affiliation and social media links */
+            text-align: center;
         }
         .links a {
             margin-right: 20px;
@@ -56,14 +58,14 @@
         <div>
             <div class="name">Ali Pourahmad Ghalejough</div>
             <div class="title">Ph.D. in Architecture, Tabriz Art University</div>
-            <div class="links">
-                <a href="https://www.researchgate.net/profile/Ali-Pourahmad-Ghalejough" target="_blank">ResearchGate</a>
-                <a href="https://linkedin.com/in/apourahmad" target="_blank">LinkedIn</a>
-                <a href="https://scholar.google.com/citations?user=QCQU9XcAAAAJ&hl=en" target="_blank">Google Scholar</a>
-                <a href="mailto:a.pourahmad@tabriziau.ac.ir">Email</a>
-            </div>
         </div>
-        <img src="photo_2023-09-19_00-00-06.png" alt="Profile Image" class="profile-image">
+        <img src="https://github.com/apourahmad/apourahmad.github.io/blob/main/photo_2023-09-19_00-00-06.png" alt="Profile Image" class="profile-image">
+        <div class="links">
+            <a href="https://www.researchgate.net/profile/Ali-Pourahmad-Ghalejough" target="_blank">ResearchGate</a>
+            <a href="https://linkedin.com/in/apourahmad" target="_blank">LinkedIn</a>
+            <a href="https://scholar.google.com/citations?user=QCQU9XcAAAAJ&hl=en" target="_blank">Google Scholar</a>
+            <a href="mailto:a.pourahmad@tabriziau.ac.ir">Email</a>
+        </div>
     </header>
 
     <section>
