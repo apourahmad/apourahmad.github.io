@@ -43,7 +43,7 @@
             margin-bottom: 8px;
             text-align: center; /* Center-aligning the title */
         }
-        .links {
+        .links, .research-interests {
             margin-top: 15px;
             text-align: center;
             border-bottom: 2px dashed #ddd;
@@ -54,6 +54,14 @@
         }
         .links a {
             margin: 0 10px;
+        }
+        .research-interests ul {
+            list-style-type: none;
+            padding: 0;
+            margin-top: 0; /* Removing margin from the top of ul */
+        }
+        .research-interests li {
+            margin-bottom: 5px; /* Decreasing the space between li items */
         }
         section {
             margin-top: 20px;
@@ -95,7 +103,7 @@
         </div>
     </header>
 
-    <section>
+    <section class="research-interests">
         <h1>Research Interests</h1>
         <ul>
             <li>&#8226; Media & Mediation in Architecture</li>
