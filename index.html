@@ -13,12 +13,25 @@
             margin: 20px;
         }
         header {
-            text-align: center;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
             background-color: #f2f2f2;
             padding: 10px;
         }
-        h1 {
+        .name {
+            font-size: 1.5em;
             color: #333;
+            margin-right: 20px;
+        }
+        .profile-image {
+            border-radius: 50%;
+            max-width: 100px;
+            max-height: 100px;
+        }
+        .title {
+            font-size: 1em;
+            color: #555;
         }
         section {
             margin-top: 20px;
@@ -32,7 +45,11 @@
 <body>
 
     <header>
-        <h1>Meet [Instructor's Name]</h1>
+        <div>
+            <div class="name">Ali Pourahmad Ghalejough</div>
+            <div class="title">Ph.D in Architecture, Tabriz Art University</div>
+        </div>
+        <img src="[Your Profile Image URL]" alt="Profile Image" class="profile-image">
     </header>
 
     <section>
