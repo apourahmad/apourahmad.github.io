@@ -91,7 +91,7 @@
         }
 
         p {
-            line-height: 1.6;
+            line-height: 1.2; /* Reduced line height */
             color: #555;
         }
 
@@ -100,13 +100,13 @@
         }
 
         .education-line,
-        .honors-line {
-            margin-bottom: 15px;
+        .honors-line,
+        .publications-line {
+            margin-bottom: 10px; /* Reduced space between lines */
         }
 
-        .publications-line {
-            margin-bottom: 15px;
-            color: #777; /* Lighter color for authors and details */
+        .publications-title {
+            color: #3498db; /* Color for "Space & Media" in "Research Interests" section */
         }
 
         /* Media Query for Tablets and Desktops */
@@ -140,7 +140,7 @@
         <h1>Research Interests</h1>
         <ul>
             <li>&#8226; Media & Mediation in Architecture</li>
-            <li>&#8226; Space & Media</li>
+            <li class="publications-title">&#8226; Space & Media</li> <!-- Color changed for this line -->
             <li>&#8226; Human-Computer Interactions</li>
             <li>&#8226; New Media Methodologies in Architectural Research</li>
         </ul>
@@ -155,21 +155,11 @@
             <li class="education-line">Cumulative GPA: 19.10/20 (4.0/4.0 WES)</li>
             <li><strong>Master of Architecture</strong> | Tabriz Islamic Art University (2015-2018)</li>
             <li>Thesis Title: Community Center for the Future: A Multi-Functional Approach for A Flexible Design</li>
-            <li>Cumulative GPA: 18.58/20 (4.0/4.0 WES)</li>
+            <li class="education-line">Cumulative GPA: 18.58/20 (4.0/4.0 WES)</li>
             <li class="education-line">Ranked 1st among Master of Architecture Students</li>
             <li><strong>Bachelor of Architecture</strong> | <a href="http://english.guilan.ac.ir/" target="_blank">University of Guilan</a> (2009-2015)</li>
             <li class="education-line">Cumulative GPA: 16.78/20 (3.6/4.0 WES)</li>
             <li><strong>Diploma in Mathematics & Physics</strong> | National Organization for Development of Exceptional Talents (2006-2009)</li>
-        </ul>
-        <div class="section-divider"></div>
-    </section>
-
-    <section>
-        <h1>Publications</h1>
-        <ul>
-            <li class="publications-line">Creativity, Design Studio Performance, and Social Media: A Study of Instagram Use among Architecture Students</li>
-            <li class="publications-line">Ali Pourahmad Ghalejough, Parisa Hashempour, & Farzin Haghparast</li>
-            <li class="publications-line">International Journal of Architectural Engineering & Urban Planning (2022), 32 (2). DOI:10.22068/ijaup.636</li>
         </ul>
         <div class="section-divider"></div>
     </section>
@@ -184,6 +174,16 @@
             <li class="education-line"><strong>1st Rank in Achieving the Highest GPA among Master of Architecture Students</strong> | Tabriz Islamic Art University (2019)</li>
             <li class="education-line"><strong>Academic Award for the Most Talented Scholars</strong> | Iran’s National Elites Foundation (2017)</li>
             <li class="education-line"><strong>Academic Full Scholarship</strong> | Iranian Ministry of Science, Research and Technology (2015)</li>
+        </ul>
+        <div class="section-divider"></div>
+    </section>
+
+    <section>
+        <h1>Publications</h1>
+        <ul>
+            <li class="publications-line publications-title">Creativity, Design Studio Performance, and Social Media: A Study of Instagram Use among Architecture Students</li>
+            <li class="publications-line">Ali Pourahmad Ghalejough, Parisa Hashempour, & Farzin Haghparast</li>
+            <li class="publications-line">International Journal of Architectural Engineering & Urban Planning (2022), 32 (2). DOI:10.22068/ijaup.636</li>
         </ul>
         <div class="section-divider"></div>
     </section>
