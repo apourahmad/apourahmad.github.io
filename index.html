@@ -13,7 +13,7 @@
         body {
             font-family: 'Hanken Grotesk', Arial, sans-serif;
             text-align: left;
-            margin: 20px;
+            margin: 2%; /* Use percentage-based margin for better responsiveness */
         }
 
         header {
@@ -25,7 +25,7 @@
         .profile-image {
             border-radius: 50%;
             align-items: center;
-            max-width: 200px;
+            max-width: 100%;
             padding: 5px;
             height: auto;
             border: 2px dashed #ddd;
@@ -107,8 +107,7 @@
         /* Media Query for Tablets and Desktops */
         @media only screen and (min-width: 600px) {
             body {
-                margin-right: 200px;
-                margin-left: 200px;
+                margin: 2% 10%; /* Adjusted margin for larger screens */
             }
         }
     </style>
@@ -146,7 +145,7 @@
     <section>
         <h1>Education</h1>
         <ul>
-            <li><strong>Ph.D. in Architecture</strong> | Tabriz Islamic Art University (2019-2023)</li>
+            <li><strong>Ph.D. in Architecture</strong> | <a href="http://en.tabriziau.ac.ir/" target="_blank">Tabriz Islamic Art University</a> (2019-2023)</li>
             <li>Dissertation Title: Analyzing the Role of Contemporary Architecture of Tabriz as Media and Metamedia</li>
             <li class="education-line">Cumulative GPA: 19.10/20 (4.0/4.0 WES)</li>
             <li><strong>Master of Architecture</strong> | Tabriz Islamic Art University (2015-2018)</li>
